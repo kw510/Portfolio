@@ -1,13 +1,22 @@
-import type { Component, lazy } from 'solid-js';
-import { Routes, Route } from "solid-app-router"
+import type { Component } from 'solid-js';
+import { lazy } from 'solid-js';
+import { useRoutes } from 'solid-app-router';
 
-import Home from "./views/home"
+const routes = [
+  {
+    path: '/',
+    component: lazy(() => import('./views/home'))
+  },
+  {
+    path: "/*all",
+    component: lazy(() => import("./views/not-found"))
+  }
+];
 
 const App: Component = () => {
+  const Routes = useRoutes(routes);
   return (
-    <Routes>
-      <Route path='/' element={<Home/>} />
-    </Routes>
+    <Routes />
   );
 };
 
