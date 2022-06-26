@@ -1,7 +1,7 @@
 import { Component } from 'solid-js';
 
 const NotFound: Component = () => {
-  return <main>Not found</main>
+  return <div>Not found</div>
 };
 
 export default NotFound;

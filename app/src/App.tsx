@@ -8,6 +8,10 @@ const routes = [
     component: lazy(() => import('./views/home'))
   },
   {
+    path:'/about',
+    element: <div>This site was made with Solid</div>
+  },
+  {
     path: "/*all",
     component: lazy(() => import("./views/not-found"))
   }
