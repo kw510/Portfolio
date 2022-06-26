@@ -5,16 +5,16 @@ import { useRoutes } from 'solid-app-router';
 const routes = [
   {
     path: '/',
-    component: lazy(() => import('./views/home'))
+    component: lazy(() => import('./views/home')),
   },
   {
-    path:'/about',
-    element: <div>This site was made with Solid</div>
+    path: '/about',
+    element: <div>This site was made with Solid</div>,
   },
   {
-    path: "/*all",
-    component: lazy(() => import("./views/not-found"))
-  }
+    path: '/*all',
+    component: lazy(() => import('./views/not-found')),
+  },
 ];
 
 const App: Component = () => {
