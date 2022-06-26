@@ -1,5 +1,4 @@
 import type { Component } from 'solid-js';
-import { NavLink } from 'solid-app-router';
 
 import logo from '../assets/images/logo.svg';
 import styles from '../assets/styles/home.module.css';
