@@ -1,6 +1,7 @@
 import type { Component } from 'solid-js';
 import { lazy } from 'solid-js';
 import { useRoutes } from 'solid-app-router';
+import Footer from './components/footer';
 
 const routes = [
   {
@@ -20,7 +21,12 @@ const routes = [
 const App: Component = () => {
   const Routes = useRoutes(routes);
   return (
-    <Routes />
+    <>
+      <div class="mx-auto max-w-8xl dark:bg-gray-900">
+        <Routes />
+        <Footer />
+      </div>
+    </>
   );
 };
 
