@@ -20,50 +20,44 @@ import r from '../assets/dev-icons/r.svg';
 import react from '../assets/dev-icons/react.svg';
 import solid from '../assets/logo.svg';
 import tailwindcss from '../assets/dev-icons/tailwindcss.svg';
-import Icon from './icon';
+import IconList from './icon-list';
 
 const Expertise: Component = () => (
   <div class="mt-8">
-    <div class="mt-2">
-      <h2 class="mb-2 text-xl text-gray-700 font-bold dark:text-blue-200 capitalize">
-        Frontend
-      </h2>
-      <ul class="flex flex-wrap gap-4 items-center">
-        <Icon src={html} title='html5' />
-        <Icon src={css} title='css3' />
-        <Icon src={javascript} title='javascript' />
-        <Icon src={react} title='react' />
-        <Icon src={solid} title='solidjs' />
-        <Icon src={tailwindcss} title='tailwindcss' class="mt-4" />
-        <Icon src={mui} title='mui' />
-      </ul>
-    </div>
-    <div class="mt-4">
-      <h2 class="mb-2 text-xl text-gray-700 font-bold dark:text-blue-200 capitalize">
-        Backend
-      </h2>
-      <ul class="mb-6 flex flex-wrap gap-4">
-        <Icon src={go} title='go' />
-        <Icon src={node} title='node' />
-        <Icon src={python} title='python' />
-        <Icon src={postgresql} title='postgresql' />
-        <Icon src={c} title='c' />
-        <Icon src={java} title='java' />
-        <Icon src={php} title='php' />
-        <Icon src={haskell} title='haskell' />
-        <Icon src={gcloud} title='gcloud' />
-      </ul>
-    </div>
-    <div class="mt-4">
-      <h2 class="mb-2 text-xl text-gray-700 font-bold dark:text-blue-200 capitalize">
-        Research
-      </h2>
-      <ul class="mb-6 flex flex-wrap gap-4">
-        <Icon src={matlab} title='matlab' />
-        <Icon src={r} title='r' />
-        <Icon src={latex} title='latex' class="dark:bg-white"/>
-      </ul>
-    </div>
+    <IconList
+      title="Frontend"
+      icons={[
+        { src: html, title: 'html' },
+        { src: css, title: 'css' },
+        { src: javascript, title: 'javascript' },
+        { src: react, title: 'react' },
+        { src: solid, title: 'solidjs' },
+        { src: tailwindcss, title: 'tailwindcss', class: 'mt-4' },
+        { src: mui, title: 'mui' },
+      ]}
+    />
+    <IconList
+      title="Backend"
+      icons={[
+        { src: go, title: 'go' },
+        { src: node, title: 'node' },
+        { src: python, title: 'python' },
+        { src: postgresql, title: 'postgresql' },
+        { src: c, title: 'c' },
+        { src: java, title: 'java' },
+        { src: php, title: 'php' },
+        { src: haskell, title: 'haskell' },
+        { src: gcloud, title: 'gcloud' },
+      ]}
+    />
+    <IconList
+      title="Research"
+      icons={[
+        { src: matlab, title: 'go' },
+        { src: r, title: 'node' },
+        { src: latex, title: 'python', class: 'dark:bg-white' },
+      ]}
+    />
   </div>
 );
 

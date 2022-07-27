@@ -1,6 +1,6 @@
 import { Component } from 'solid-js';
 
-interface Props {
+export interface Props {
   title : string,
   src : string,
   class? : string
