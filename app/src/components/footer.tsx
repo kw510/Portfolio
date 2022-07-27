@@ -4,7 +4,7 @@ import linkedin from '../assets/icons/linkedin.svg';
 
 const Footer: Component = () => (
   <footer class="antialiased bg-white">
-    <div class="flex flex-col items-center pt-8">
+    <div class="flex flex-col items-center pt-2">
       <div class="flex mb-3 space-x-4">
         <a
           class="text-sm text-gray-500 transition hover:text-gray-600"
