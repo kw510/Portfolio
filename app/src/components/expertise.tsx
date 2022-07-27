@@ -20,6 +20,7 @@ import r from '../assets/dev-icons/r.svg';
 import react from '../assets/dev-icons/react.svg';
 import solid from '../assets/logo.svg';
 import tailwindcss from '../assets/dev-icons/tailwindcss.svg';
+import Icon from './icon';
 
 const Expertise: Component = () => (
   <div class="mt-8">
@@ -28,27 +29,13 @@ const Expertise: Component = () => (
         Frontend
       </h2>
       <ul class="flex flex-wrap gap-4 items-center">
-        <li class="flex items-center">
-          <img src={html} class="h-10 w-10" title='html5' />
-        </li>
-        <li class="flex items-center">
-          <img src={css} class="h-10 w-10" title='css3' />
-        </li>
-        <li class="flex items-center">
-          <img src={javascript} class="h-10 w-10" title='javascript' />
-        </li>
-        <li class="flex items-center">
-          <img src={react} class="h-10 w-10" title='react' />
-        </li>
-        <li class="flex items-center">
-          <img src={solid} class="h-10 w-10" title='solidjs' />
-        </li>
-        <li class="flex items-center">
-          <img src={tailwindcss} class="mt-4 h-10 w-10" title='tailwindcss' />
-        </li>
-        <li class="flex items-center">
-          <img src={mui} class="h-10 w-10" title='mui' />
-        </li>
+        <Icon src={html} title='html5' />
+        <Icon src={css} title='css3' />
+        <Icon src={javascript} title='javascript' />
+        <Icon src={react} title='react' />
+        <Icon src={solid} title='solidjs' />
+        <Icon src={tailwindcss} title='tailwindcss' class="mt-4" />
+        <Icon src={mui} title='mui' />
       </ul>
     </div>
     <div class="mt-4">
@@ -56,33 +43,15 @@ const Expertise: Component = () => (
         Backend
       </h2>
       <ul class="mb-6 flex flex-wrap gap-4">
-        <li class="flex items-center">
-          <img src={go} class="h-10 w-10" title='go' />
-        </li>
-        <li class="flex items-center">
-          <img src={node} class="h-10 w-10" title='node' />
-        </li>
-        <li class="flex items-center">
-          <img src={python} class="h-10 w-10" title='python' />
-        </li>
-        <li class="flex items-center">
-          <img src={postgresql} class="h-10 w-10" title='postgresql' />
-        </li>
-        <li class="flex items-center">
-          <img src={c} class="h-10 w-10" title='c' />
-        </li>
-        <li class="flex items-center">
-          <img src={java} class="h-10 w-10" title='java' />
-        </li>
-        <li class="flex items-center">
-          <img src={php} class="h-10 w-10" title='php' />
-        </li>
-        <li class="flex items-center">
-          <img src={haskell} class="h-10 w-10" title='haskell' />
-        </li>
-        <li class="flex items-center">
-          <img src={gcloud} class="h-10 w-10" title='gcp' />
-        </li>
+        <Icon src={go} title='go' />
+        <Icon src={node} title='node' />
+        <Icon src={python} title='python' />
+        <Icon src={postgresql} title='postgresql' />
+        <Icon src={c} title='c' />
+        <Icon src={java} title='java' />
+        <Icon src={php} title='php' />
+        <Icon src={haskell} title='haskell' />
+        <Icon src={gcloud} title='gcloud' />
       </ul>
     </div>
     <div class="mt-4">
@@ -90,15 +59,9 @@ const Expertise: Component = () => (
         Research
       </h2>
       <ul class="mb-6 flex flex-wrap gap-4">
-        <li class="flex items-center">
-          <img src={matlab} class="h-10 w-10" title='matlab' />
-        </li>
-        <li class="flex items-center">
-          <img src={r} class="h-10 w-10" title='r' />
-        </li>
-        <li class="flex items-center">
-          <img src={latex} class="h-10 w-10 dark:bg-white" title='LaTeX' />
-        </li>
+        <Icon src={matlab} title='matlab' />
+        <Icon src={r} title='r' />
+        <Icon src={latex} title='latex' class="dark:bg-white"/>
       </ul>
     </div>
   </div>
