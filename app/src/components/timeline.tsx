@@ -9,14 +9,37 @@ const Timeline: Component = () => (
       <Role
         src={academy}
         title="Software Engineer at Thirdfort"
-        responsibilities={['Job role here!']}
-        from="2020"
+        responsibilities={[
+          'Leading a small team, developing a GO microservice which works out what products to charge.',
+          'Coaching and mentoring new joiners, and fellow members of the team',
+          'Communicating with the product team on new features',
+          'Helping to solve support production issues',
+        ]}
+        from="Nov. 2020"
         current={true}
       />
       <Role
         src={academy}
+        title="Taught Academic Representative at The University of Bath"
+        responsibilities={[
+          'Gathered and represented students\' opinions of the course upon Staff Student Liaison Committees.',
+          'Relayed outcomes to both students and the SU, acting as a bridge of communication.',
+          'Negotiated upon the SSLC for higher marks for students who took a calculator exam paper, where a printing error caused no calculators to be provided.',
+        ]}
+        from="Oct. 2017"
+        to="June 2018"
+      />
+      <Role
+        src={academy}
+        title="Academic Peer Mentor at The University of Bath"
+        description='Mentored a small group of first year students, helping them with their studies and adjusting to university.'
+        from="Oct. 2017"
+        to="June 2018"
+      />
+      <Role
+        src={academy}
         title="University of Bath"
-        description='MComp Computer Science | First Class with Honours'
+        description='Master of Computer Science | First Class with Honours'
         from="2016"
         to="2020"
       />

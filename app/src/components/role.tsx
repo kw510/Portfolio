@@ -33,7 +33,7 @@ const Role: Component<Props> = (props) => (
         </span>
       </Show>
     </h3>
-    <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+    <time class="block mb-4 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
       {props.from} - {props.current ? 'Currently' : props.to}
     </time>
     <Show when={props.description}>
@@ -42,8 +42,8 @@ const Role: Component<Props> = (props) => (
       </p>
     </Show>
     <Show when={props.responsibilities}>
-      <ol class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-left">
-        <For each={props.responsibilities}>{(r) => <li> • {r}</li>}</For>
+      <ol class="ml-4 mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-left list-disc list-outside">
+        <For each={props.responsibilities}>{(r) => <li>{r}</li>}</For>
       </ol>
     </Show>
   </li>
