@@ -20,6 +20,7 @@ import r from '../assets/dev-icons/r.svg';
 import react from '../assets/dev-icons/react.svg';
 import solid from '../assets/logo.svg';
 import tailwindcss from '../assets/dev-icons/tailwindcss.svg';
+
 import IconList from './icon-list';
 
 const Expertise: Component = () => (
@@ -53,9 +54,9 @@ const Expertise: Component = () => (
     <IconList
       title="Research"
       icons={[
-        { src: matlab, title: 'go' },
-        { src: r, title: 'node' },
-        { src: latex, title: 'python', class: 'dark:bg-white' },
+        { src: matlab, title: 'matlab' },
+        { src: r, title: 'r' },
+        { src: latex, title: 'latex', class: 'dark:bg-white' },
       ]}
     />
   </div>
