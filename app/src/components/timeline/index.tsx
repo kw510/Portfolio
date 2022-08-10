@@ -1,13 +1,12 @@
 import { Component } from 'solid-js';
-import academy from '../assets/icons/academy.svg';
+import { EduIcon, JobIcon } from './timeline-icons';
 
-import Role from './role';
+import Role from '../role';
 
 const Timeline: Component = () => (
   <div class="opacity-100 mt-10">
     <ol class="relative border-l border-gray-200 dark:border-gray-700">
       <Role
-        src={academy}
         title="Software Engineer at Thirdfort"
         responsibilities={[
           'Leading a small team, developing a GO microservice which works out what products to charge.',
@@ -17,9 +16,9 @@ const Timeline: Component = () => (
         ]}
         from="Nov. 2020"
         current={true}
+        icon={<JobIcon />}
       />
       <Role
-        src={academy}
         title="Taught Academic Representative at The University of Bath"
         responsibilities={[
           'Gathered and represented students\' opinions of the course upon Staff Student Liaison Committees.',
@@ -28,20 +27,21 @@ const Timeline: Component = () => (
         ]}
         from="Oct. 2017"
         to="June 2018"
+        icon={<JobIcon />}
       />
       <Role
-        src={academy}
         title="Academic Peer Mentor at The University of Bath"
         description='Mentored a small group of first year students, helping them with their studies and adjusting to university.'
         from="Oct. 2017"
         to="June 2018"
+        icon={<JobIcon />}
       />
       <Role
-        src={academy}
         title="University of Bath"
         description='Master of Computer Science | First Class with Honours'
         from="2016"
         to="2020"
+        icon={<EduIcon />}
       />
     </ol>
   </div>

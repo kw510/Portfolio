@@ -1,6 +1,6 @@
+import { FaBrandsLinkedin } from 'solid-icons/fa';
+import { OcMarkgithub2 } from 'solid-icons/oc';
 import { Component } from 'solid-js';
-import github from '../assets/icons/github.svg';
-import linkedin from '../assets/icons/linkedin.svg';
 
 const Footer: Component = () => (
   <footer class="antialiased bg-white">
@@ -13,7 +13,7 @@ const Footer: Component = () => (
           rel="noopener noreferrer"
         >
           <span class="sr-only">github</span>
-          <img class="w-8 h-8" src={github} />
+          <OcMarkgithub2 size={32} color="#000000" />
         </a>
         <a
           class="text-sm text-gray-500 transition hover:text-gray-600"
@@ -22,7 +22,7 @@ const Footer: Component = () => (
           rel="noopener noreferrer"
         >
           <span class="sr-only">Linkedin</span>
-          <img class="w-8 h-8" src={linkedin} />
+          <FaBrandsLinkedin size={32} color="#0072b1"/>
         </a>
       </div>
       <div class="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">

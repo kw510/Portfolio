@@ -1,25 +1,25 @@
 import { Component } from 'solid-js';
 
 // Import SVGs for logos
-import c from '../assets/dev-icons/c.svg';
-import css from '../assets/dev-icons/css.svg';
-import gcloud from '../assets/dev-icons/gcloud.svg';
-import go from '../assets/dev-icons/go.svg';
-import haskell from '../assets/dev-icons/haskell.svg';
-import html from '../assets/dev-icons/html.svg';
-import java from '../assets/dev-icons/java.svg';
-import javascript from '../assets/dev-icons/javascript.svg';
-import latex from '../assets/dev-icons/latex.svg';
-import matlab from '../assets/dev-icons/matlab.svg';
-import mui from '../assets/dev-icons/mui.svg';
-import node from '../assets/dev-icons/node.svg';
-import php from '../assets/dev-icons/php.svg';
-import postgresql from '../assets/dev-icons/postgresql.svg';
-import python from '../assets/dev-icons/python.svg';
-import r from '../assets/dev-icons/r.svg';
-import react from '../assets/dev-icons/react.svg';
+import c from '../assets/icons/c.svg';
+import css from '../assets/icons/css.svg';
+import gcloud from '../assets/icons/gcloud.svg';
+import go from '../assets/icons/go.svg';
+import haskell from '../assets/icons/haskell.svg';
+import html from '../assets/icons/html.svg';
+import java from '../assets/icons/java.svg';
+import javascript from '../assets/icons/javascript.svg';
+import latex from '../assets/icons/latex.svg';
+import matlab from '../assets/icons/matlab.svg';
+import mui from '../assets/icons/mui.svg';
+import node from '../assets/icons/node.svg';
+import php from '../assets/icons/php.svg';
+import postgresql from '../assets/icons/postgresql.svg';
+import python from '../assets/icons/python.svg';
+import r from '../assets/icons/r.svg';
+import react from '../assets/icons/react.svg';
 import solid from '../assets/logo.svg';
-import tailwindcss from '../assets/dev-icons/tailwindcss.svg';
+import tailwindcss from '../assets/icons/tailwindcss.svg';
 
 import IconList from './icon-list';
 

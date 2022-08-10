@@ -1,11 +1,16 @@
-import { Component, Show, For } from 'solid-js';
+import {
+  Component,
+  Show,
+  For,
+  JSX,
+} from 'solid-js';
 
 interface BasicProps {
   from: string,
   title : string,
   description? : string,
   responsibilities? : string[],
-  src : string,
+  icon : JSX.Element,
 }
 
 interface CurrentProps extends BasicProps {
@@ -23,7 +28,7 @@ type Props = CurrentProps | ToProps;
 const Role: Component<Props> = (props) => (
   <li class="mb-10 ml-6">
     <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-      <img class="w-3 h-3 text-blue-600 dark:text-blue-400" src={props.src} />
+      {props.icon}
     </span>
     <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
       {props.title}
