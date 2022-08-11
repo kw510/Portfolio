@@ -7,11 +7,10 @@ const Intro: Component = () => (
     </div>
 
     <p class="mt-8 mb-4 dark:bg-gray-800 dark:text-blue-200 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Software Engineer at Thirdfort, Master Computer Science Graduate from the University of Bath,
+      with First Class Honours.Open to new and interesting challenges, with opportunities for fast
+      growth and self-development. Enjoys contributing to real world problems, making the world
+      better and more secure!
     </p>
   </div>
 );
