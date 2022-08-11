@@ -1,6 +1,8 @@
 import { Component } from 'solid-js';
 import { OcLocation2, OcMarkgithub2 } from 'solid-icons/oc';
+import { IoDocumentAttachOutline } from 'solid-icons/io';
 import { FaBrandsLinkedin } from 'solid-icons/fa';
+import cv from '../assets/cv.pdf';
 
 interface Props {
   name : string
@@ -49,11 +51,21 @@ const Profile: Component<Props> = (props) => (
         <a
           class="my-2 text-gray-600 flex dark:text-blue-100"
           target="_blank"
-          href="https://www.linkedin.com/in/kieran-warwick/"
+          href="https://github.com/kw510"
           rel="noopener noreferrer"
         >
           <OcMarkgithub2 size={24} class="mr-2" />
           <p>Github</p>
+        </a>
+      </div>
+      <div class="flex">
+        <a
+          class="my-2 text-gray-600 flex dark:text-blue-100"
+          href={cv}
+          download='kieran-warwick-cv.pdf'
+        >
+          <IoDocumentAttachOutline size={24} class="mr-2" />
+          <p>Resume / CV</p>
         </a>
       </div>
     </div>

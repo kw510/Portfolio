@@ -1,4 +1,4 @@
-import { FaBrandsLinkedin } from 'solid-icons/fa';
+import { FaBrandsLinkedin, FaBrandsMedium } from 'solid-icons/fa';
 import { OcMarkgithub2 } from 'solid-icons/oc';
 import { Component } from 'solid-js';
 
@@ -23,6 +23,15 @@ const Footer: Component = () => (
         >
           <span class="sr-only">Linkedin</span>
           <FaBrandsLinkedin size={32} color="#0072b1"/>
+        </a>
+        <a
+          class="text-sm text-gray-500 transition hover:text-gray-600"
+          target="_blank"
+          href="https://medium.com/@kieranwarwick.dev"
+          rel="noopener noreferrer"
+        >
+          <span class="sr-only">Medium</span>
+          <FaBrandsMedium size={32} color="#000000" />
         </a>
       </div>
       <div class="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">

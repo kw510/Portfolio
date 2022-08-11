@@ -1,7 +1,7 @@
 import { Component } from 'solid-js';
 import { EduIcon, JobIcon } from './timeline-icons';
 
-import Role from '../role';
+import Role from './role';
 
 const Timeline: Component = () => (
   <div class="opacity-100 mt-10">
