@@ -9,10 +9,11 @@ const Timeline: Component = () => (
       <Role
         title="Software Engineer at Thirdfort"
         responsibilities={[
-          'Leading a small team, developing a GO microservice which works out what products to charge.',
-          'Coaching and mentoring new joiners, and fellow members of the team',
-          'Communicating with the product team on new features',
-          'Helping to solve support production issues',
+          'Developed a new security component and lead migration of existing records achieving a zero downtime launch with over 32 million records migrated. It allows us the scale the system, improving GET requests ~47%, to an average of 50ms.',
+          'Lead a small team and developed a new billing component; Trained successor to take over component. Included transitioning Node to Go, Kafka to PubSub, http to gRPC, Kubernetes to Google Cloud Run',
+          'Coached and mentored joiners and members of the team, generally contributing to technical discussions.',
+          'Helping with DevOps responsibilities including: Deploying Pods and Services to the Kubernetes cluster and managing PubSub topics + subscriptions. Also finding and solving ongoing production issues.',
+          'Worked with the product, operations, design and support teams, helping deliver technical knowledge.',
         ]}
         from="Nov. 2020"
         current={true}

@@ -48,7 +48,7 @@ const Role: Component<Props> = (props) => (
     </Show>
     <Show when={props.responsibilities}>
       <ol class="ml-4 mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-left list-disc list-outside">
-        <For each={props.responsibilities}>{(r) => <li>{r}</li>}</For>
+        <For each={props.responsibilities}>{(r) => <li class="pb-2">{r}</li>}</For>
       </ol>
     </Show>
   </li>
