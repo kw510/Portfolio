@@ -7,7 +7,7 @@ import author from '../../assets/profile.png';
 
 const Home: Component = () => (
   <div class="max-w-screen-lg md:flex mx-auto">
-    <div class="md:w-1/3 p-2 mt-2 md:flex md:justify-center">
+    <div class="md:w-1/3 p-2 md:mt-2 md:flex md:justify-center">
       <Profile
         name='Kieran Warwick'
         img={author}
