@@ -12,7 +12,7 @@ const Home: Component = () => (
         name='Kieran Warwick'
         img={author}
         position='Software Engineer'
-        company='Thirdfort'
+        company='Rungway'
         location='London, UK'
       />
     </div>

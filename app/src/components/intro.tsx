@@ -7,18 +7,17 @@ const Intro: Component = () => (
     </div>
 
     <p class="mt-8 mb-2 dark:text-blue-200 text-justify">
-      Software Engineer at Thirdfort, Master Computer Science Graduate from the University of Bath,
-      with First Class Honours.
+      A product-driven software engineer.
     </p>
 
     <p class="my-2 dark:text-blue-200 text-justify">
-      Open to new and interesting challenges, with opportunities for fast
-      growth and self-development.
+      Have worked in two startups, where both was leading innovative projects to
+      improve the scale and stabitlty of the platform
     </p>
 
     <p class="mb-4 mt-1 dark:text-blue-200 text-justify">
-      Enjoys contributing to real world problems, making the world
-      better and more secure!
+      Main expertise is in event-driven architecture on Go microservices,
+      over gRPC. Considered a generalist programmer
     </p>
   </div>
 );

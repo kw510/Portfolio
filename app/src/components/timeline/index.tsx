@@ -7,6 +7,16 @@ const Timeline: Component = () => (
   <div class="opacity-100 mt-10">
     <ol class="relative border-l border-gray-200 dark:border-gray-700">
       <Role
+        current
+        title="Software Engineer at Rungway"
+        responsibilities={[
+          'Worked on V3 of the platform, which is a whole redesign of the platform. Backend work involved taking 25 complex Java microservices (with shared libraries), and condensing them into 5 simple go microservices.',
+          'Collaborated with the insights team to provide a data dashboard. This was a bespoke piece of work to provide data to certain clients.',
+        ]}
+        from="March 2023"
+        icon={<JobIcon />}
+      />
+      <Role
         title="Software Engineer at Thirdfort"
         responsibilities={[
           'Developed a new security component and lead migration of existing records achieving a zero downtime launch with over 32 million records migrated. It allows us the scale the system, improving GET requests ~47%, to an average of 50ms.',
@@ -16,7 +26,7 @@ const Timeline: Component = () => (
           'Worked with the product, operations, design and support teams, helping deliver technical knowledge.',
         ]}
         from="Nov. 2020"
-        current={true}
+        to="March 2023"
         icon={<JobIcon />}
       />
       <Role
